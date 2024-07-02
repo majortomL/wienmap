@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wienmap/static/css/main.d4b851a2.css",
-    "main.js": "/wienmap/static/js/main.7496795a.js",
+    "main.js": "/wienmap/static/js/main.704923a7.js",
     "static/js/453.57dac458.chunk.js": "/wienmap/static/js/453.57dac458.chunk.js",
     "index.html": "/wienmap/index.html",
     "main.d4b851a2.css.map": "/wienmap/static/css/main.d4b851a2.css.map",
-    "main.7496795a.js.map": "/wienmap/static/js/main.7496795a.js.map",
+    "main.704923a7.js.map": "/wienmap/static/js/main.704923a7.js.map",
     "453.57dac458.chunk.js.map": "/wienmap/static/js/453.57dac458.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4b851a2.css",
-    "static/js/main.7496795a.js"
+    "static/js/main.704923a7.js"
   ]
 }
