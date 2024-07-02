@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/wienmap/static/css/main.d4b851a2.css",
-    "main.js": "/wienmap/static/js/main.704923a7.js",
+    "main.js": "/wienmap/static/js/main.efd5716e.js",
     "static/js/453.57dac458.chunk.js": "/wienmap/static/js/453.57dac458.chunk.js",
+    "static/media/bike.png": "/wienmap/static/media/bike.bd0db3a43decd748f3d7.png",
+    "static/media/ping-pong.png": "/wienmap/static/media/ping-pong.47b1504da8bcf9ecde4d.png",
+    "static/media/target.png": "/wienmap/static/media/target.ba524e92f038724ae140.png",
+    "static/media/drop.png": "/wienmap/static/media/drop.6feb68f90bcd841e5a09.png",
+    "static/media/fog.png": "/wienmap/static/media/fog.ba6481aab21d0c4be744.png",
+    "static/media/moon.png": "/wienmap/static/media/moon.ba6fbe4ddaec8ad72bf0.png",
     "index.html": "/wienmap/index.html",
     "main.d4b851a2.css.map": "/wienmap/static/css/main.d4b851a2.css.map",
-    "main.704923a7.js.map": "/wienmap/static/js/main.704923a7.js.map",
+    "main.efd5716e.js.map": "/wienmap/static/js/main.efd5716e.js.map",
     "453.57dac458.chunk.js.map": "/wienmap/static/js/453.57dac458.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4b851a2.css",
-    "static/js/main.704923a7.js"
+    "static/js/main.efd5716e.js"
   ]
 }
