@@ -1,0 +1,87 @@
+/* ExpandableMenuControl.css */
+.menu-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the viewport */
+    height: 10vh; /* 10% of viewport height */
+    background-color: white;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it is above other elements */
+}
+
+.menu-button {
+    background-color: #DA121A; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    width: 95%; /* Adjust width as needed, e.g., 80% of the viewport width */
+    height: 80%;
+    max-width: 600px; /* Optional: max width for larger screens */
+    padding: 0 10px; /* Equal padding on all sides */
+    text-align: center; /* Center text horizontally */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    box-sizing: border-box;
+    font-size: 25px; /* Include padding in width calculation */
+}
+
+.menu-button img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    margin-right: 8px;
+}
+
+.menu {
+    position: fixed;
+    top: 10vh; /* Start below the menu bar */
+    left: 0;
+    width: 100%;
+    max-height: 90vh; /* Limit the height */
+    background-color: white;
+    border: 1px solid gray;
+    border-top: none; /* No border on top to connect with the menu bar */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Allow scrolling if content is too large */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    display: none; /* Default to hidden */
+    z-index: 1000; /* Ensure the menu is above the map */
+}
+
+.menu.visible {
+    display: block; /* Show menu */
+}
+
+.menu.hidden {
+    display: none; /* Hide menu */
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 5px 0;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.menu label {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    cursor: pointer;
+    width: 100%; /* Full width of the menu */
+    padding: 8px; /* Padding around each item */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.menu input[type="radio"] {
+    margin-right: 10px; /* Space between radio button and text */
+}
